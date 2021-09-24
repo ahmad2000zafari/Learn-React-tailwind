@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.layer {
+  height: 100vh;
+  /* background: url('https://images.pexels.com/photos/774548/pexels-photo-774548.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat fixed center;*/
+  background: url('https://www.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_8038877.htm#page=1&query=Background&position=13');
+  background-color: rgba(0, 0, 200, 0.4);
+  background-size: cover;
+}
+
+@media (max-width: 639px) {                  
+  .content-to-hide {
+     display: none;
+  }
+}
+
+@media (max-width: 270px) {                  
+  .content-to-flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
